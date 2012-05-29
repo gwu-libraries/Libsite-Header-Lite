@@ -63,6 +63,7 @@ img, object, embed {
 }
 
 #libheader {
+	width: 100%;
 	max-width: 940px; 
 	min-width: 320px; /* change to 700px if removing responsive or the IE stylesheet */
 	margin: 0 auto 0; 
@@ -89,6 +90,7 @@ img, object, embed {
 }
 
 #libfooter {
+	width: 100%;
 	max-width:940px;
 	min-width: 320px; /* change to 700px if removing responsive or the IE stylesheet */
 	margin:1em auto 0; 
@@ -103,12 +105,12 @@ img, object, embed {
 #libfooter a:hover {color:#fff; text-decoration:underline;} 
 
 /* responsive class to drop the gw logo when window is under 700px  */
-.hide-lo {
-  display: block;
-  visibility: visible;  
-}
-
-/* this is set at 720 to leave room for links, adjust as needed if your links are shorter/longer */
-@media screen and (max-width: 720px) {
   .hide-lo {display:none; visibility:hidden;}
+
+/* this is set at 721 to leave room for links, adjust as needed if your links are shorter/longer */
+@media screen and (min-width: 721px) {
+	.hide-lo {
+		display: block;
+		visibility: visible;  
+	}
 }
