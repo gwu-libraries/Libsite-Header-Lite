@@ -5,6 +5,7 @@
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 body { margin: 0; font-size: 100%; font-family: Arial, sans-serif; line-height: 1.231; }
+/* optionally set page background color inside body tag: "background-color: #ccc" etc  */
 
 p, li {
 	line-height: 1.125em; /* 18px; */
@@ -51,10 +52,10 @@ img, object, embed {
 }
 
 #libheader-container {
-	width:100%; 
+	width: 100%; 
 	margin-bottom: 1em; 
 	height: 2em; 
-	padding: 0 0 .3em; 
+	padding: 0 0 .3em;
 	background-color: #03314b;
 	background-image: url(bg-local-nav-bottom.png);
 	background-position: bottom;
@@ -65,7 +66,7 @@ img, object, embed {
 #libheader {
 	width: 100%;
 	max-width: 940px; 
-	min-width: 320px; /* change to 700px if removing responsive or the IE stylesheet */
+	min-width: 320px; /* change to 720px if removing responsive or the IE stylesheet */
 	margin: 0 auto 0; 
 	height: 2em; 
 	color: #fff; 
@@ -91,20 +92,20 @@ img, object, embed {
 
 #libfooter {
 	width: 100%;
-	max-width:940px;
-	min-width: 320px; /* change to 700px if removing responsive or the IE stylesheet */
-	margin:1em auto 0; 
-	color:#fff; 
-	padding:0; 
+	max-width: 940px;
+	min-width: 320px; /* change to 720px if removing responsive or the IE stylesheet */
+	margin: 1em auto 0; 
+	color: #fff; 
+	padding: 0; 
 	white-space: nowrap; 
-	overflow:hidden;
+	overflow: hidden;
 }
 
 #libfooter a {color:#fff; text-decoration:none;}
 #libfooter a:visited {color:#fff;}
 #libfooter a:hover {color:#fff; text-decoration:underline;} 
 
-/* responsive class to drop the gw logo when window is under 700px  */
+/* responsive class to drop the gw logo when window is 720px or below (mobile-first)  */
   .hide-lo {display:none; visibility:hidden;}
 
 /* this is set at 721 to leave room for links, adjust as needed if your links are shorter/longer */

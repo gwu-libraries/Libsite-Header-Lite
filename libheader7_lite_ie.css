@@ -1,8 +1,8 @@
 @charset "utf-8";
 
-/* overide for older IE to remove responsive */
+/* overide for older IE to overide responsive since it's unsupported */
 
-#libheader {	min-width: 700px; }
+#libheader {min-width:720px;}
 
-#libfooter {	min-width: 700px; }
+#libfooter {min-width:720px;}
 
