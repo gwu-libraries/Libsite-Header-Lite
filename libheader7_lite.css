@@ -13,7 +13,7 @@ p, li {
 	color: #555;
 }
 
-h2 {
+h1, h2 {
 	font-size: 1.25em; /* 20px; */
 	font-family: Georgia, serif;
 	color: #555;
@@ -50,6 +50,12 @@ img, object, embed {
   height: auto;
   object-fit: contain;
 }
+
+/* Correct font-size not inheriting in all browsers, Remove margins in FF3/4 S5 Chrome, Define consistent vertical alignment display in all browsers */
+button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+
+/* This is the new Libraires "blue" submit button */
+input[type=submit], button {height:1.6em; border:none; border-radius:0em; font-size: 1em; color:#fff; background-color:#4282B1;}
 
 #libheader-container {
 	width: 100%; 
