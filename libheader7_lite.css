@@ -4,7 +4,7 @@
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
-body { margin: 0; font-size: 100%; font-family: Arial, sans-serif; line-height: 1.231; }
+body { margin: 0; font-size: 100%; font-family: Helvetica, Arial, sans-serif; line-height: 1.231; }
 /* optionally set page background color inside body tag: "background-color: #ccc" etc  */
 
 p, li {
@@ -15,7 +15,7 @@ p, li {
 
 h1, h2 {
 	font-size: 1.25em; /* 20px; */
-	font-family: Georgia, serif;
+	font-family: Palatino, Georgia, serif;
 	color: #555;
 	font-weight: normal;
 	line-height: 1.5em; /* 24px; */
@@ -25,7 +25,7 @@ h1, h2 {
 
 h3 {
 	font-size: 1em; /* 16px; */
-	font-family: Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	color: #555;
 	font-weight: normal;
 	line-height: 1.25em; /* 20px; */
@@ -33,7 +33,7 @@ h3 {
 
 h4 {
 	font-size: .75em; /* 12px; */
-	font-family: Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	color: #555;
 	font-weight: bold;
 	line-height: 1em; /* 16px; */
@@ -54,7 +54,7 @@ img, object, embed {
 /* Correct font-size not inheriting in all browsers, Remove margins in FF3/4 S5 Chrome, Define consistent vertical alignment display in all browsers */
 button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
 
-/* This is the new Libraires "blue" submit button */
+/* This is the new Libraries "blue" submit button */
 input[type=submit], button {
     border-color: #4081AF #4081AF #20559A;
     border-style: solid;
