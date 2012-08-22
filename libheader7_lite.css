@@ -10,13 +10,13 @@ body { margin: 0; font-size: 100%; font-family: Helvetica, Arial, sans-serif; li
 p, li {
 	line-height: 1.125em; /* 18px; */
 	font-size: .814em; /* 14px; */
-	color: #555;
+	color: #333;
 }
 
 h1, h2 {
 	font-size: 1.25em; /* 20px; */
 	font-family: Palatino, Georgia, serif;
-	color: #555;
+	color: #333;
 	font-weight: normal;
 	line-height: 1.5em; /* 24px; */
 	letter-spacing: -1px;
@@ -26,7 +26,7 @@ h1, h2 {
 h3 {
 	font-size: 1em; /* 16px; */
 	font-family: Helvetica, Arial, sans-serif;
-	color: #555;
+	color: #333;
 	font-weight: normal;
 	line-height: 1.25em; /* 20px; */
 }
@@ -34,7 +34,7 @@ h3 {
 h4 {
 	font-size: .75em; /* 12px; */
 	font-family: Helvetica, Arial, sans-serif;
-	color: #555;
+	color: #333;
 	font-weight: bold;
 	line-height: 1em; /* 16px; */
 }
