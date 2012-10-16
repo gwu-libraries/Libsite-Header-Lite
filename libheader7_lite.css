@@ -15,7 +15,7 @@ p, li {
 
 h1, h2 {
 	font-size: 1.25em; /* 20px; */
-	font-family: Palatino, Georgia, serif;
+	font-family: Helvetica, Arial, sans-serif;
 	color: #333;
 	font-weight: normal;
 	line-height: 1.5em; /* 24px; */
@@ -110,6 +110,8 @@ input[type=submit], button {
 .libheader-logo {float:right; overflow:hidden; height:2em; margin-right:.5em;}
 .libfooter-text {margin: 0 .5em; font-size:.7em; padding-top:.75em; overflow:hidden;}
 
+.bullet {float:left; padding:.6em 0 0 .75em; color:#fff;}
+
 #libfooter-container {
 	width: 100%; 
 	height: 2em; 
@@ -132,7 +134,9 @@ input[type=submit], button {
 #libfooter a:hover {color:#fff; text-decoration:underline;} 
 
 /* responsive class to drop the gw logo when window is 720px or below (mobile-first)  */
+@media screen and (max-width: 720px) {
   .hide-lo {display:none; visibility:hidden;}
+}
 
 /* this is set at 721 to leave room for links, adjust as needed if your links are shorter/longer */
 @media screen and (min-width: 721px) {
