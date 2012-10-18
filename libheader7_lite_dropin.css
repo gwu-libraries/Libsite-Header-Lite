@@ -78,12 +78,12 @@
 #libheader a:visited {color:#fff;}
 #libheader a:hover {color:#fff; text-decoration:underline;} 
 
-.libheader-link {float:left; font-size:.9em; padding-top:.6em; margin-left:1em;}
+.libheader-link {float:left; font-size:.9em; padding-top:1em; margin-left:1em;}
 .libheader-liblink {float:left; font-size: 1.5em; padding-top:.3em; margin-right:2em; margin-left:.5em;}
 .libheader-logo {float:right; overflow:hidden; margin-right:.5em;}
 .libfooter-text {margin: 0 .5em; font-size:.7em; padding-top:.75em; overflow:hidden;}
 
-.bullet {float:left; padding:.6em 0 0 .75em; color:#fff;}
+.bullet {float:left; padding:.9em 0 0 .75em; color:#fff;}
 
 #libfooter-container {
 	width: 100%; 
