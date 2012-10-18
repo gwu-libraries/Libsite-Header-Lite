@@ -17,14 +17,7 @@
 	background-repeat: repeat-x;
 }
 
-
-#libheader-container p, li {
-	line-height: 1.125em; /* 18px; */
-	font-size: .814em; /* 14px; */
-	color: #333;
-}
-
-#libheader-container h1, h2 {
+#libheader-container h1 h2 {
 	font-size: 1.25em; /* 20px; */
 	font-family: Helvetica, Arial, sans-serif;
 	color: #333;
@@ -56,7 +49,7 @@
 	}
 
 /* to force images to scale (responsive) -- optional */
-#libheader-container img, object, embed {
+#libheader-container img object embed {
   max-width: 100%;
   height: auto;
   object-fit: contain;
