@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 /* Libraries site styles */
+/* use libheader7_lite_dropin.css instead if you don't need to alter the main content/body styles */
 
 html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 

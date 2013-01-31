@@ -1,6 +1,7 @@
 @charset "utf-8";
 
 /* Libraries site styles */
+/* Use this instead of the main libheader7_lite.css for libguides and other tools where you don't want to alter the main content/body styles */
 
 #libheader-container {
 	font-size: 100%; 
