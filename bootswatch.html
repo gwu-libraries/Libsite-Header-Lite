@@ -3,10 +3,10 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-            <title>GW Libraries Bootswatch</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
-        <meta name="author" content="">
+            <title>GW Libraries Bootswatch</title><!-- your page title -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- important! -->
+        <meta name="description" content=""><!-- optional -->
+        <meta name="author" content=""><!-- optional -->
             
         <!-- styles -->
         <link href="css/bootstrap.css" rel="stylesheet">
@@ -14,9 +14,9 @@
         <link href="css/libheader7_lite.css" rel="stylesheet">
         <link href="css/libheader7_lite_bootswatch.css" rel="stylesheet">
    
-        <!-- js links at bottom -->
+        <!-- js links are at the bottom of the page -->
             
-        <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements -->
+        <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
         <!--[if lt IE 9]>
         <link href="css/libheader7_lite_ie.css" rel="stylesheet">
         <script src="js/html5shiv.js"></script>
@@ -24,10 +24,11 @@
                                 
         <!-- Fav and touch icons -->
         <link rel="shortcut icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="img/apple-touch-icon-iphone.png"><!-- optional, and this is just the min version -->
     </head>
     
     <body>
-        <header class="navbar-fixed-top">
+        <header class="navbar-fixed-top"><!-- this is the Libsite7 Lite Header -->
             <div id="libheader-container" style="">
                 <div id="libheader" class="container" style="">
                     <div class="libheader-logo hide-lo" style=""><a href="http://www.gwu.edu" target="_blank" title="GWU website"><img src="img/gwheaderlogo.png" alt="logo: The George Washington University" /></a></div>
@@ -39,9 +40,9 @@
                     <div class="libheader-link" style=""><a href="#" target="_blank" title="">Placeholder Link 2</a></div>
                 </div>
             </div>
-        </header>
+        </header><!-- end Libsite7 Lite Header -->
         
-        <!-- page content -->
+        <!-- page content: put your content inside the <article> tag and customize/format with the Bootstrap scaffolding: http://twitter.github.com/bootstrap/scaffolding.html -->
         <article class="container">
             
             <div class="row-fluid">
@@ -57,7 +58,7 @@
                     <p>Download <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a> (you can use the full or 'min' versions of the css and js) then add the following files:</p>
                     
                     <ul>
-                        <li><strong>CSS</strong>: call libsite7_lite.css and libheader7_lite_bootswatch.css.  Either include them (in order) in the &lt;head&gt; after the bootstrap css links or paste the contents into the end of the bootstrap.css file. Why 2 files? Because the first one is also used for the "simple" header</li>
+                        <li><strong>CSS</strong>: call libsite7_lite.css and libheader7_lite_bootswatch.css.  Either include them (in order) in the &lt;head&gt; after the bootstrap css links or paste the contents into the end of the bootstrap.css file. <em>Why 2 files? Because the first one is also used for the "simple" header</em></li>
                         <li><strong>HTML Scaffold</strong>: bootswatch.html (this page). This is the html template with lots of comments</li>
                         <li><strong>Internet Explorer Fixes</strong>: include the libheader7_lite_ie.css file after the rest of the css. Also add the html5shiv.js file to your JS directory (this file, borrowed from the Bootstrap starter template, helps retro fix older versions of IE)</li>
                     </ul>
@@ -78,21 +79,17 @@
         </article> <!-- /container -->
         <!-- end page content -->
         
-        <footer class="navbar-fixed-bottom">
+        <footer class="navbar-fixed-bottom"><!-- the Libsite7 Lite Footer -->
             <div id="libfooter-container" style="">
                 <div id="libfooter" class="container" style="">
                     <div class="libfooter-text" style=""><span class="address"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries Website">GW Libraries</a> &#8226; 2130 H Street NW &#8226; Washington DC 20052</span> &#8226; <span class="tel">202.994.6558</span> &#8226; <a href="mailto:refdesk@gwu.edu" target="_blank" title="">refdesk@gwu.edu</a></div>
                 </div>
             </div>
-        </footer>
+        </footer><!-- end Libsite7 Lite Footer -->
         
         
-        
-        
-        <!-- javascript
-         ================================================== -->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="js/bootstrap.js"></script>
+        <!-- javascript placed at the end of the document so the pages load faster -->
+        <script src="js/bootstrap.js"></script><!-- important! -->
         
     </body>
 </html>
