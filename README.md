@@ -1,4 +1,4 @@
 Libsite-Header-Lite
 ===================
 
-HTML minimal/lite header and footer for use with tools like FindIt and Launchpad
+Simple HTML minimal/lite header and footer and Twitter Bootswatch version for use with tools like FindIt, Launchpad and SRRS
