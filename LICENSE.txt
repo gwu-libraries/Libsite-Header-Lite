@@ -1,4 +1,4 @@
-Copyright (c) 2013 The George Washington University
+Copyright (c) 2013 The George Washington University ("GWU")
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
@@ -20,8 +20,8 @@ CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 GW Logo, "GW Libraries" and "The George Washington University" are 
-trademark of GWU and cannot be used without permission. They are 
-included here solely as examples of usage or for internal use at GWU.
+trademarks of GWU and cannot be used without permission. They are 
+included here solely for internal use at GWU.
 
  -=-=-=-
 
