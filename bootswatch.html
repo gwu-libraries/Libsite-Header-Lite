@@ -9,8 +9,9 @@
         <meta name="author" content=""><!-- optional -->
             
         <!-- styles -->
-        <link href="css/bootstrap.css" rel="stylesheet">
-        <link href="css/bootstrap-responsive.css" rel="stylesheet">
+        <!--<link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/bootstrap-responsive.css" rel="stylesheet">-->
+        <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet">
         <link href="css/libheader7_lite.css" rel="stylesheet">
         <link href="css/libheader7_lite_bootswatch.css" rel="stylesheet">
    
@@ -55,17 +56,19 @@
                 <div class="span8"> <!-- this is a 'content' column that takes up 8 of the 12 columns within this content area -->
                     <h2>Implementation</h2>
                     
-                    <p>Download <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a> (you can use the full or 'min' versions of the css and js) then add the following files:</p>
+                    <!--<p>Download <a href="http://twitter.github.com/bootstrap/index.html">Bootstrap</a> (you can use the full or 'min' versions of the css and js) then add the following files:</p>-->
+                    
+                    <p>The main file you will need is the HTML scaffold file ('bootswatch.html').  All of the necessary code is explained there.</p>
                     
                     <ul>
-                        <li><strong>CSS</strong>: call libsite7_lite.css and libheader7_lite_bootswatch.css.  Either include them (in order) in the &lt;head&gt; after the bootstrap css links or paste the contents into the end of the bootstrap.css file. <em>Why 2 files? Because the first one is also used for the "simple" header</em></li>
+                        <li><strong>CSS</strong>: call libsite7_lite.css and libheader7_lite_bootswatch.css. Include both files (in order) in the &lt;head&gt; after the bootstrap css link. <em>Why 2 files? Because the first one is also used for the "simple" header</em></li>
                         <li><strong>HTML Scaffold</strong>: bootswatch.html (this page). This is the html template with lots of comments</li>
                         <li><strong>Internet Explorer Fixes</strong>: include the libheader7_lite_ie.css file after the rest of the css. Also add the html5shiv.js file to your JS directory (this file, borrowed from the Bootstrap starter template, helps retro fix older versions of IE)</li>
                     </ul>
                     
                     <p>Layout options for Twitter Bootstrap (scaffolding) are outlined here: <a href="http://twitter.github.com/bootstrap/scaffolding.html">http://twitter.github.com/bootstrap/scaffolding.html</a></p>
                 </div>
-                <div class="span4"> <!-- this is 'sidebar' column that takes up 4 of the 12 columns within this content area -->
+                <div class="span4"> <!-- this is a 'sidebar' column that takes up 4 of the 12 columns within this content area -->
                     <h2>Sidebar Column</h2>
                     
                     <p>A 'class=span4' column example, using 4 of the 12 columns for this content area. This column collapses into the main column at low resolution.</p>
@@ -93,7 +96,8 @@
         
         
         <!-- javascript placed at the end of the document so the pages load faster -->
-        <script src="js/bootstrap.js"></script><!-- important! -->
+        <!--<script src="js/bootstrap.js"></script>-->
+        <script src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script><!-- important -->
         
     </body>
 </html>
