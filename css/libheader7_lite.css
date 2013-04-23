@@ -66,7 +66,6 @@ input[type=submit], button {
 	font-size: 1em;
 	padding: .3em .4em;
 	background: -moz-linear-gradient(center top , #1F65A0 20%, #4282B1 100%); /* mozilla */
-	/*background-color: #4282B1;*/
     background: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #1F65A0), color-stop(100%, #4282B1)); /* Safari 4+, Chrome 2+ */  	
     background: -o-linear-gradient(#1F65A0, #4282B1); /* Opera 11.10 */  
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1F65A0', endColorstr='#4282B1'); /* IE6 & IE7 */  
@@ -86,7 +85,6 @@ input[type=submit], button {
     background-color: #005581; 
 	background-image: url(../img/bg-local-nav-bottom.png);
 	background-position: bottom;
-	background-width: 100%;
 	background-repeat: repeat-x;
 }
 
@@ -136,7 +134,7 @@ input[type=submit], button {
 
 /* responsive class to drop the gw logo when window is 720px or below (mobile-first)  */
 @media screen and (max-width: 720px) {
-  .hide-lo {display:none; visibility:hidden;}
+    .hide-lo {display:none; visibility:hidden;}
 }
 
 /* this is set at 721 to leave room for links, adjust as needed if your links are shorter/longer */
@@ -148,7 +146,7 @@ input[type=submit], button {
 }
 
 
-/* MODS FOR BOOTSTRAP SWATCH, uncomment to use */
+/* MODS FOR BOOTSTRAP SWATCH, uncomment to use OR include libheader7_lite_bootswatch.css */
 
 /* #libheader {
     width: auto;
