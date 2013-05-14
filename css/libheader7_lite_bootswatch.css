@@ -5,6 +5,10 @@
     max-width: 1170px;
 }
 
+.libsite-container {
+    margin-top: 45px;
+}
+
 #libfooter {
     width: auto;
     max-width: 1170px;
