@@ -1,14 +1,19 @@
 Libsite-Header-Lite
 ===================
 
-Simple HTML minimal/lite header and footer and Twitter Bootswatch version for use with tools like FindIt, Launchpad and SRRS
+Simple HTML minimal/lite header and footer. Includes both a static html version and a Twitter Bootswatch version.
 
-Bootswatch html: bootswatch.html
+Intended for use with GW Library tools like FindIt, Launchpad and SRRS and also vendor tools like Libguides that let you drop basic skinning via the admin UI.
 
-Static html: page.html
+Implementation
+--------------
 
-And examples on gwdroid: 
+The code is heavily commented. Start by looking at the html framework for your intended version:
 
-http://gwdroid.wrlc.org/~aldridge/libheader/page.html
+Bootswatch html: bootswatch.html (example: http://gwdroid.wrlc.org/~aldridge/libheader/bootswatch.html)
 
-http://gwdroid.wrlc.org/~aldridge/libheader/bootswatch.html
+Static html: page.html (example: http://gwdroid.wrlc.org/~aldridge/libheader/page.html)
+
+
+
+
