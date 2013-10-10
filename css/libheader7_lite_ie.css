@@ -4,6 +4,11 @@
 
 body { font-family: Arial, sans-serif; }
 
+article {
+   height: auto !important; 
+   height: 600px; 
+}
+
 #libheader {min-width:720px;}
 
 #libfooter {min-width:720px;}
