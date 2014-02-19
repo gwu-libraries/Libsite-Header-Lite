@@ -113,8 +113,9 @@ input[type=submit], button {
 #libheader a:hover {color:#fff; text-decoration:underline;} 
 
 .libheader-link {float:left; font-size:.9em; padding-top:.6em; margin-left:1em;}
+.libheader-icon {float:right; font-size:.9em; padding-top:.6em; margin-left:1em;}
 .libheader-liblink {float:left; font-size: 1.1em; padding-top:.3em; margin-right:2em; margin-left:.5em;}
-.libheader-logo {float:right; overflow:hidden; height:2em; margin-right:.5em;}
+.libheader-logo {float:right; overflow:hidden; height:2em; margin-right:.5em; margin-left:1em;}
 .libfooter-text {margin: 0 .5em .5em; font-size:.7em; padding-top:.75em; overflow:hidden;}
 
 .bullet {float:left; padding:.6em 0 0 .75em; color:#fff;}
@@ -166,8 +167,8 @@ input[type=submit], button {
     /* optionally set page background color inside body tag: "background-color: #ccc" etc  */
 
     p, li {
-        line-height: 1.125em; /* 18px; */
-        font-size: .814em; /* 14px; */
+        line-height: 1.125em; 
+        font-size: .814em; 
         color: #000;
     }
 
