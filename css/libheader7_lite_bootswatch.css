@@ -15,6 +15,13 @@
     position: fixed;
     margin-bottom: 0;
 }
+@media screen and (max-width:768px) {
+  .navbar-fixed-bottom {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* end bootstrap override */
 
 #libfooter {
     width: auto;
@@ -31,5 +38,3 @@
 @media screen and (min-width:980px) { 
 	.libsite-container {margin-top:3em;} 
 }
-
-/*.libfooter-text {margin:0 0;}*/
