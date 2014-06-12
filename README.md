@@ -19,7 +19,7 @@ Static html: page.html (example: http://gwdroid.wrlc.org/~aldridge/libheader/pag
 Bootswatch Version
 ------------------
 
-Include the following in your <head>
+Include the following in your <head></head>
 
 ```
 <!DOCTYPE html>
