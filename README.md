@@ -19,7 +19,7 @@ Static html: page.html (example: http://gwdroid.wrlc.org/~aldridge/libheader/pag
 Bootswatch Version
 ------------------
 
-Include the following in your <head></head>
+Include the following in your '<head></head>''
 
 ```
 <!DOCTYPE html>
@@ -77,7 +77,7 @@ Include the following in your <head></head>
 
 ```
 
-Then add the header to the body:
+Then add the header to the '<body>':
 
 ```
 <header class="navbar-fixed-top"><!-- this is the Libsite7 Lite Header -->
@@ -121,14 +121,10 @@ And the footer:
 </footer><!-- end Libsite7 Lite Footer -->
 ```
 
-Include js call at the bottom (for faster page load) or add this into the <head>:
+Include js call at the bottom (for faster page load) or add this into the '<head>':
 
 ```
 <!-- javascript placed at the end of the document so the pages load faster -->
 <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script><!-- important :) -->
 
 ```
-
-
-
-
