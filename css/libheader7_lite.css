@@ -92,9 +92,6 @@ input[type=submit], button {
 	padding: 0 0 .3em;
     background-color: #005581; 
     border-bottom: 4px solid #b2a38f;
-	/*background-image: url(../img/bg-local-nav-bottom.png);
-	background-position: bottom;
-	background-repeat: repeat-x;*/
 }
 
 #libheader {
