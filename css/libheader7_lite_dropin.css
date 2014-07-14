@@ -12,10 +12,7 @@
 	height: 2.7em; 
 	padding: 0 0 .3em;
 	background-color: #03314b;
-	background-image: url('http://findit.library.gwu.edu/static/img/bg-local-nav-bottom.png');
-	background-position: bottom;
-	background-width: 100%;
-	background-repeat: repeat-x;
+	border-bottom: 4px solid #b2a38f;
 }
 
 #libheader-container h1 h2 {
