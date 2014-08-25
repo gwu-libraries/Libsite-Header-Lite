@@ -135,6 +135,15 @@ input[type=submit], button {
 	overflow: hidden;
 }
 
+#footer-contact {
+  float: left;
+}
+
+#footer-utility {
+  float: right;
+  margin-top: 0;
+}
+
 #libfooter a:link {color:#fff; text-decoration:none;}
 #libfooter a:visited {color:#fff;}
 #libfooter a:hover {color:#fff; text-decoration:underline;} 
