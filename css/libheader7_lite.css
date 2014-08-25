@@ -161,6 +161,12 @@ input[type=submit], button {
 	}
 }
 
+/* responsive class to prevent utility links from bumping contact block in smaller views */
+@media screen and (max-width: 760px) {
+  #libfooter-container {height:2.9em;}
+  #footer-utility {float:none; clear:left; margin-top:1.6em;}
+}
+
 
 /* MODS FOR PRINT */
 
