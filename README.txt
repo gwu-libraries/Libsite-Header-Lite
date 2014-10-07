@@ -6,6 +6,6 @@ A minimalist responsive header/footer and stylesheet for GW Libraries' web tools
 
 Code is heavily commented.  
 
-Start by viewing the example at bootswatch.html http://gwdroid.wrlc.org/~aldridge/libheader/bootswatch.html OR the basic non-bootstrap version http://gwdroid.wrlc.org/~aldridge/libheader/page.html (Simple Libsite7 Lite Header)
+Start by viewing the example at bootswatch.html http://gwdev-zut.wrlc.org/libheader/bootswatch.html OR the basic non-bootstrap version http://gwdev-zut.wrlc.org/libheader/page.html (Simple Libsite7 Lite Header)
 
 Includes Font Awesome! http://fontawesome.io/get-started/
