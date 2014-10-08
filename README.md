@@ -12,9 +12,9 @@ Implementation
 
 The code is heavily commented. Start by looking at the html framework for your intended version:
 
-Bootswatch html: bootswatch.html (example: http://gwdev-zut.wrlc.org/libheader/bootswatch.html)
+Bootswatch html: bootswatch.html (example: http://gwdev-zut.wrlc.org/libheader/Libsite-Header-Lite/bootswatch.html)
 
-Static html: page.html (example: http://gwdev-zut.wrlc.org/libheader/page.html)
+Static html: page.html (example: http://gwdev-zut.wrlc.org/libheader/Libsite-Header-Lite/page.html)
 
 Bootswatch Version
 ------------------
