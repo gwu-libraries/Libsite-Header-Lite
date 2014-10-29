@@ -38,7 +38,10 @@
           })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
           ga('create', 'UA-xxxxxx-x', 'auto');
+          ga('create', 'UA-12345678-1', 'auto', {'name': 'aggregate'});  // sets aggregated Analytics account.
           ga('send', 'pageview');
+          ga('aggregate.send', 'pageview'); // Send page view for aggregated Analytics account.
+
         </script>
         -->
         
