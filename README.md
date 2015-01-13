@@ -103,7 +103,7 @@ Then add the header to the &lt;body&gt; :
             <div class="libheader-icon">
                 <i class='icon-user icon-white'></i>&nbsp;guest
             </div>
-            <!-- end optional bootsrap user icons -->
+            <!-- end optional bootstrap user icons -->
         </div>
     </div>
 </header><!-- end Libsite7 Lite Header -->
@@ -115,7 +115,18 @@ And the footer:
 <footer class="navbar-fixed-bottom"><!-- the Libsite7 Lite Footer -->
     <div id="libfooter-container">
         <div id="libfooter" class="container">
-            <div class="libfooter-text"><span class="address"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries Website">GW Libraries</a> &#8226; 2130 H Street NW &#8226; Washington DC 20052</span> &#8226; <span class="tel">202.994.6558</span> &#8226; <a href="mailto:gelman@gwu.edu" target="_blank" title="">gelman@gwu.edu</a></div>
+            <div class="libfooter-text">
+                <div id="footer-contact">
+                    <span class="address"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries Website">GW Libraries</a> &#8226; 2130 H Street NW &#8226; Washington DC 20052</span> &#8226; <span class="tel">202.994.6558</span> &#8226; <a href="mailto:gelman@gwu.edu" target="_blank" title="">gelman@gwu.edu</a>
+                </div>
+                <div id="footer-utility">
+                    <span><a href="#">Utility Link 1</a></span>
+                    <span> &#8226; </span>
+                    <span><a href="#">Utility Link 2</a></span>
+                    <span> &#8226; </span>
+                    <span><a href="#">Utility Link 3</a></span>
+                </div>
+            </div>
         </div>
     </div>
 </footer><!-- end Libsite7 Lite Footer -->
