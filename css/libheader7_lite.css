@@ -148,6 +148,18 @@ input[type=submit], button {
 #libfooter a:visited {color:#fff;}
 #libfooter a:hover {color:#fff; text-decoration:underline;} 
 
+/* from bootstrap's sr-only class to display labels in spans only readable by screen readers */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
 /* responsive class to drop the gw logo when window is 720px or below (mobile-first)  */
 @media screen and (max-width: 720px) {
     .hide-lo {display:none; visibility:hidden;}
