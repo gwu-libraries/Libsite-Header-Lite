@@ -42,15 +42,15 @@ Include the following in your &lt;head&gt; &lt;/head&gt; :
         <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet" media="all">
         <!-- Font Awesome! http://fontawesome.io/get-started -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/libheader7_lite.css" rel="stylesheet" media="all">
-        <link href="css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
+        <link href="//gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
+        <link href="//gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
 	    <!-- print styles are included in base libheader7_lite.css --> 
   
         <!-- js links are at the bottom of the page -->
             
         <!-- IE css mods and HTML5 shim, for IE6-8 support of HTML5 elements --><!-- important! -->
         <!--[if lt IE 9]>
-        <link href="css/libheader7_lite_ie.css" rel="stylesheet">
+        <link href="//gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite_ie.css" rel="stylesheet">
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
                                 
@@ -89,7 +89,7 @@ Then add the header to the &lt;body&gt; :
 <header class="navbar-fixed-top"><!-- this is the Libsite7 Lite Header -->
     <div id="libheader-container">
         <div id="libheader" class="container">
-            <div class="libheader-logo hide-lo"><a href="http://www.gwu.edu" target="_blank" title="GWU website"><img src="img/gwheaderlogo.png" alt="logo: The George Washington University" /></a></div>
+            <div class="libheader-logo hide-lo"><a href="http://www.gwu.edu" target="_blank" title="GWU website"><img src="//gwappassets-prod.wrlc.org/app-assets/libheader/2_002/img/gwheaderlogo.png" alt="logo: The George Washington University" /></a></div>
             <div class="libheader-liblink"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries website">GW Libraries</a></div>
 
             <!-- optional links can go here (note: use short text, test it doesn't bump into the GW logo) -->
