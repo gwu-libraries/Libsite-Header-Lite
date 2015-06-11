@@ -88,7 +88,6 @@ input[type=submit], button {
 #libheader-container {
 	width: 100%; 
 	margin-bottom: 1em; 
-	height: 2em; 
 	padding: 0 0 .3em;
     background-color: #005581; 
     border-bottom: 4px solid #b2a38f;
