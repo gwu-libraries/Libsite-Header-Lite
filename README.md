@@ -16,9 +16,11 @@ Bootswatch html: bootswatch.html (example: http://gwdev-zut.wrlc.org/libheader/L
 
 Static html: page.html (example: http://gwdev-zut.wrlc.org/libheader/Libsite-Header-Lite/page.html)
 
-> App Assets server: all of the static files can be pulled directly from the App Assets server: http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/ (where 2_002 is the Libsite-Header-Lite version you want to pull). The file structure is the same:
+> **App Assets server**: all of the static files can be pulled directly from the App Assets server: http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/ (where 2_002 is the Libsite-Header-Lite version you want to pull). The file structure is the same:
 
-> Example: http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite.css
+> *Example: http://gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite.css*
+
+> The only local file you will need is the favicon file
 
 Bootswatch Version
 ------------------
