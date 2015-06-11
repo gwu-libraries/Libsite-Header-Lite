@@ -140,6 +140,7 @@ Include js call at the bottom (for faster page load) or add this into the &lt;he
 
 ```
 <!-- javascript placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
 <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script><!-- important :) -->
 
 ```
