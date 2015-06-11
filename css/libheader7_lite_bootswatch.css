@@ -7,6 +7,7 @@
 
 .libsite-container {
     margin-bottom: 35px;
+    margin-top: 3em;
 }
 
 /* override bootstrap to keep footer stuck to bottom for all views */
@@ -32,8 +33,4 @@
 @media screen and (max-width:1200px) {
     .libheader-liblink {margin-left:.5em;} 
     .libfooter-text {margin:0 .5em;}
-}
-
-@media screen and (min-width:980px) { 
-	.libsite-container {margin-top:3em;} 
 }
