@@ -1,7 +1,7 @@
 Libsite-Header-Lite
 ===================
 
-Simple HTML minimal/lite header and footer. Includes both a static html version and a Twitter Bootswatch version (Bootstrap 2.3).
+Simple HTML minimal/lite header and footer with GW Libraries branding. Includes both a static html version and a Twitter Bootswatch version (Bootstrap 3.3.4).
 
 Intended for use with GW Library tools like FindIt, Launchpad and SRRS and also vendor tools like Libguides that let you drop basic skinning via the admin UI.
 
