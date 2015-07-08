@@ -1,5 +1,5 @@
-Libsite-Header-Lite
-===================
+Libsite-Header-Lite: "Libheader Lite"
+=====================================
 
 Simple HTML minimal/lite header and footer with GW Libraries branding. Includes both a static html version and a Twitter Bootswatch version (Bootstrap 3.3.4).
 
@@ -143,6 +143,6 @@ Include js call at the bottom (for faster page load) or add this into the &lt;he
 ```
 <!-- javascript placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script><!-- important :) -->
+<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script><!-- important :) -->
 
 ```
