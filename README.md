@@ -39,7 +39,7 @@ Include the following in your &lt;head&gt; &lt;/head&gt; :
             
         <!-- styles -->
         <!-- these are the stylesheets: first one grabs the Bootstrap cdn stylesheet, the other two are for the Library theme -->
-        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css" rel="stylesheet" media="all">
+        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/3.3.4/css/bootstrap-combined.min.css" rel="stylesheet" media="all">
         <!-- Font Awesome! http://fontawesome.io/get-started -->
         <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="//gwappassets-prod.wrlc.org/app-assets/libheader/2_002/css/libheader7_lite.css" rel="stylesheet" media="all">
