@@ -128,7 +128,7 @@ And the footer:
                 <div id="footer-utility">
                     <span><a href="https://library.gwu.edu/accessibility">Accessibility</a></span>
                     <span> &#8226; </span>
-                    <span><a href="#">Utility Link 2</a></span>
+                    <span><a href="https://library.gwu.edu/contact">Contact Us</a></span>
                     <span> &#8226; </span>
                     <span><a href="#">Utility Link 3</a></span>
                 </div>
