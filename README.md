@@ -89,7 +89,7 @@ Then add the header to the &lt;body&gt; :
 <header class="navbar-fixed-top"><!-- this is the Libsite7 Lite Header -->
     <div id="libheader-container">
         <div id="libheader" class="container">
-            <div class="libheader-logo hide-lo"><a href="http://www.gwu.edu" target="_blank" title="GWU website"><img src="//gwappassets-prod.wrlc.org/app-assets/libheader/2_002/img/gwheaderlogo.png" alt="logo: The George Washington University" /></a></div>
+            <div class="libheader-logo hide-lo"><a href="http://www.gwu.edu" target="_blank" title="GWU website"><img src="//gwappassets-prod.wrlc.org/app-assets/libheader/2_002/img/gwheaderlogo.png" alt="logo: The George Washington University" /></a><span class="sr-only">GWU Home Page</span></div>
             <div class="libheader-liblink"><a href="http://library.gwu.edu" target="_blank" title="GW Libraries website">GW Libraries</a></div>
 
             <!-- optional links can go here (note: use short text, test it doesn't bump into the GW logo) -->
