@@ -39,9 +39,9 @@ Include the following in your &lt;head&gt; &lt;/head&gt; :
             
         <!-- styles -->
         <!-- these are the stylesheets: first one grabs the Bootstrap cdn stylesheet, the other two are for the Library theme -->
-        <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/3.3.4/css/bootstrap-combined.min.css" rel="stylesheet" media="all">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet" media="all">
         <!-- Font Awesome! http://fontawesome.io/get-started -->
-        <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
         <link href="//assets.library.gwu.edu/app-assets/libheader/2_003/css/libheader7_lite.css" rel="stylesheet" media="all">
         <link href="//assets.library.gwu.edu/app-assets/libheader/2_003/css/libheader7_lite_bootswatch.css" rel="stylesheet" media="all">
 	    <!-- print styles are included in base libheader7_lite.css --> 
@@ -115,6 +115,22 @@ Then add the header to the &lt;body&gt; :
 </header><!-- end Libsite7 Lite Header -->
 
 ```
+
+Two-Column content to get you started:
+
+```
+<article class="libsite-container container">
+  <div class="row">
+    <div class="col-md-4"> <!-- this is a column that takes up 4 of the 12 columns within this content area (total always needs to be 12) -->
+    <p>First column, 4 wide</p>
+    </div>
+    <div class="col-md-8"> <!-- this is a column that takes up the remaining 8 of the 12 columns within this content area (total always needs to be 12) -->
+    <p>Second column, 8 wide</p>
+    </div>
+  </div>
+</article>
+```
+
 And the footer:
 
 ```
@@ -143,6 +159,6 @@ Include js call at the bottom (for faster page load) or add this into the &lt;he
 ```
 <!-- javascript placed at the end of the document so the pages load faster -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> 
-<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script><!-- important :) -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script><!-- important :) -->
 
 ```
