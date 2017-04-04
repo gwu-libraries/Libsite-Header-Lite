@@ -10,11 +10,7 @@ The Bootstrap bootswatch includes Font Awesome (version 4.1)! http://fontawesome
 Implementation
 --------------
 
-The code is heavily commented. Start by looking at the html framework for your intended version:
-
-Bootswatch html: bootswatch.html (example: http://gwdev-zut.wrlc.org/libheader/Libsite-Header-Lite/bootswatch.html)
-
-Static html: page.html (example: http://gwdev-zut.wrlc.org/libheader/Libsite-Header-Lite/page.html)
+The code is heavily commented. Start by looking at the html framework for your intended version.
 
 > **App Assets server**: all of the static files can be pulled directly from the App Assets server: http://assets.library.gwu.edu/app-assets/libheader/2_003/ (where 2_003 is the Libsite-Header-Lite version you want to pull). The file structure is the same:
 
